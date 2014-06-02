@@ -1,0 +1,28 @@
+{
+  "name": "usabilitydynamics/lib-term-editor",
+  "version": "0.1.0",
+  "keywords": [
+    "wordpress"
+  ],
+  "type": "wordpress-module",
+  "require": {
+    "php": ">=5.3",
+    "usabilitydynamics/lib-installer": "master"
+  },
+  "autoload": {
+    "classmap": [
+      "lib"
+    ]
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://repository.usabilitydynamics.com"
+    }
+  ],
+  "extra": {
+    "installer-name": "term-editor",
+    "main-file": "lib/class-term-editor.php"
+  }
+}
