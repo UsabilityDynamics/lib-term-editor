@@ -5,9 +5,7 @@ WordPress term editor library/module.
 Initialize for Administration (default configuration)
 
 ```php
-<?php
-  add_action( 'admin_init', 'UsabilityDynamics\TermEditor::admin_init' );
-?>
+add_action( 'admin_init', 'UsabilityDynamics\TermEditor::admin_init' );
 ```
 
 ## License
