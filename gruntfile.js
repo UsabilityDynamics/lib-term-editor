@@ -25,7 +25,6 @@ module.exports = function build( grunt ) {
     jsTests: findup( 'static/test/js' )
   };
 
-  console.log( resolvePath( _paths.scripts ) );
   grunt.initConfig({
 
     // Ready Composer Meta.
@@ -44,7 +43,7 @@ module.exports = function build( grunt ) {
         keywords: [ 'gettext', 'ngettext:1,2' ]
       },
       files:{
-        src:  [ 'lib/*.php' ],
+        src: [ 'lib/*.php' ],
         expand: true
       }
     },

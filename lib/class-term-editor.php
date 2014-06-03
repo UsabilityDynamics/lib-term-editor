@@ -32,6 +32,7 @@ namespace UsabilityDynamics {
        */
       public function __construct( $parent = array(), $module = array() ) {
 
+
         try {
 
           // Initialize Module.
