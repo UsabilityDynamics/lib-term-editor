@@ -1,9 +1,11 @@
 <?php
 /**
- * TermEditor
+ * Name: Term Editor
+ * Class: UsabilityDynamics\TermEditor
+ * Version: 0.1.0
+ * Description: Taxonomy Editor Interface.
+ * Slug: term-editor
  *
- * lib-term-editor
- * http://github.com/UsabilityDynamics/lib-term-editor
  */
 namespace UsabilityDynamics {
 
@@ -34,8 +36,8 @@ namespace UsabilityDynamics {
 
           // Initialize Module.
 
-        }  catch( \Exception $error ) {
-          trigger_error($error->getMesage() );
+        } catch( \Exception $error ) {
+          trigger_error( $error->getMesage() );
         }
 
       }

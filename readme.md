@@ -1,12 +1,5 @@
 WordPress term editor library/module.
 
-## Getting Started
-Install the module with: `npm install lib-term-editor`
-
-```javascript
-var lib_term_editor = require('lib-term-editor');
-lib_term_editor.awesome(); // "awesome"
-```
 ## Usage
 
 ## License
