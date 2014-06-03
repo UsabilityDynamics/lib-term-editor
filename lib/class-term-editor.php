@@ -24,23 +24,44 @@ namespace UsabilityDynamics {
       static public $path = null;
 
       /**
+       * Settings.
+       *
+       * @var null|\UsabilityDynamics\Settings
+       */
+      private $_settings = null;
+
+      /**
+       * Parent Product.
+       *
+       * @var array|null
+       */
+      private $_parent = null;
+
+      /**
        * Intialize TermEditor.
        *
        * @param $parent
-       * @param $module
+       * @param $settings
        *
        * @method __construct
        */
-      public function __construct( $parent = array(), $module = array() ) {
+      public function __construct( $parent = array(), $settings = array() ) {
 
         try {
 
           // Initialize Module.
+          require_once( __DIR__ . '/class-term-editor-exception.php' );
+          require_once( __DIR__ . '/class-term-editor-utility.php' );
 
-          // __( 'Initializing Term Editor', 'term-editor' );
+          self::$path = dirname( __DIR__ );
 
+          // Set Parent.
+          $this->_parent = $parent;
 
-        } catch( \Exception $error ) {
+          // Set Settings
+          $this->_setings = $settings;
+
+        } catch( Exception $error ) {
           trigger_error( $error->getMesage() );
         }
 
@@ -52,6 +73,8 @@ namespace UsabilityDynamics {
        * @method admin_init
        */
       public static function admin_init() {
+
+        // __( 'Initializing Term Editor', 'term-editor' );
 
       }
 
