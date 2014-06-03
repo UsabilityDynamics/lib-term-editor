@@ -36,9 +36,9 @@ module.exports = function build( grunt ) {
     // Locale.
     pot: {
       options:{
-        package_name: '<%= settings.name %>',
-        package_version: '<%= settings.version %>',
-        text_domain: '<%= settings.name %>',
+        package_name: '<%= meta.name %>',
+        package_version: '<%= meta.version %>',
+        text_domain: '<%= settings.text_domain %>',
         dest: _paths.languages,
         keywords: [ 'gettext', 'ngettext:1,2' ]
       },

@@ -23,6 +23,7 @@
   ],
   "extra": {
     "installer-name": "term-editor",
+    "text_domain": "term-editor",
     "main-file": "lib/class-term-editor.php"
   }
 }

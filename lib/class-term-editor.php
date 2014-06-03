@@ -29,17 +29,29 @@ namespace UsabilityDynamics {
        * @param $parent
        * @param $module
        *
+       * @method __construct
        */
       public function __construct( $parent = array(), $module = array() ) {
-
 
         try {
 
           // Initialize Module.
 
+          // __( 'Initializing Term Editor', 'term-editor' );
+
+
         } catch( \Exception $error ) {
           trigger_error( $error->getMesage() );
         }
+
+      }
+
+      /**
+       * Initialize on Admin
+       *
+       * @method admin_init
+       */
+      public static function admin_init() {
 
       }
 
