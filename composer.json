@@ -20,9 +20,24 @@
     }
   ],
   "extra": {
+    "title": {
+      "en_US": "Term Editor"
+    },
+    "tagline": {
+      "en_US": ""
+    },
+    "description": {
+      "en_US": "Rich Terms Editor."
+    },
+    "image": false,
+    "minimum_core": {
+      "wp-property": "2.0.0",
+      "wp-realty": "0.1.0"
+    },
     "installer-name": "term-editor",
     "text_domain": "term-editor",
-    "main-file": "lib/class-term-editor.php",
-    "class": "UsabilityDynamics\\TermEditor"
+    "classmap": "lib/class-term-editor.php",
+    "bootstrap": "UsabilityDynamics\\TermEditor"
+    
   }
 }
