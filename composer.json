@@ -1,13 +1,13 @@
 {
-  "name": "usabilitydynamics/lib-term-editor",
-  "version": "0.1.0",
+  "name": "udx/lib-term-editor",
+  "version": "0.2.0",
   "type": "wordpress-module",
   "keywords": [
     "wordpress"
   ],
   "require": {
     "php": ">=5.3",
-    "usabilitydynamics/lib-installer": "master"
+    "udx/lib-installer": "master"
   },
   "autoload": {
     "classmap": [ "lib" ]
@@ -16,7 +16,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "http://repository.usabilitydynamics.com"
+      "url": "https://repository.usabilitydynamics.com"
     }
   ],
   "extra": {

@@ -1,20 +1,20 @@
 {
   "name": "lib-term-editor",
   "description": "WordPress term editor library/module.",
-  "version": "0.1.0",
-  "homepage": "http://github.com/UsabilityDynamics/lib-term-editor",
+  "version": "0.2.0",
+  "homepage": "https://github.com/udx/lib-term-editor",
   "author": {
     "name": "Usability Dynamics",
     "email": "info@UsabilityDynamics.com",
-    "url": "http://UsabilityDynamics.com"
+    "url": "https://www.usabilitydynamics.com"
   },
   "bugs": {
-    "url": "http://github.com/UsabilityDynamics/lib-term-editor/issues"
+    "url": "https://github.com/udx/lib-term-editor/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/UsabilityDynamics/lib-term-editor/blob/master/LICENSE-MIT"
+      "url": "https://github.com/udx/lib-term-editor/blob/master/readme.md#license"
     }
   ],
   "engines": {

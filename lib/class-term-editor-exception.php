@@ -3,7 +3,7 @@
  * TermEditor Utility
  *
  * lib-term-editor
- * http://github.com/UsabilityDynamics/lib-term-editor
+ * https://github.com/udx/lib-term-editor
  */
 namespace UsabilityDynamics\TermEditor {
 
